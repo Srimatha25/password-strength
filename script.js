@@ -11,13 +11,13 @@ function checkStrength() {
   if (/[^A-Za-z0-9]/.test(password)) strength++;
 
   if (strength <= 2) {
-    message.textContent = "Weak Password 😟";
+    message.textContent = "Weak Password🟠";
     message.style.color = "red";
   } else if (strength === 3 || strength === 4) {
-    message.textContent = "Medium Strength 😐";
+    message.textContent = "Medium Strength🟡";
     message.style.color = "orange";
   } else if (strength === 5) {
-    message.textContent = "Strong Password 💪";
+    message.textContent = "Strong Password🟢";
     message.style.color = "green";
   } else {
     message.textContent = "";
