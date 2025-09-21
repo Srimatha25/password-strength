@@ -32,7 +32,7 @@ Clone the repository to your local machine:
 
 Bash
 
-git clone https://github.com/your-username/your-repository-name.git
+git clone https://github.com/Srimatha/password-strength.git
 Navigate to the project directory:
 
 Bash
